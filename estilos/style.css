@@ -1,0 +1,358 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;700;800&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300;400&display=swap');
+
+
+:root {
+    --cor1: #F4F4F4;
+    --cor2: #BFBFBF;
+    --cor3: #A6A6A6;
+    --cor4: #737373;
+    --cor5: #595959;
+    --cor6: #ddb16e;
+    --cor7: #dcdbcf;
+}
+
+/*
+font-family: 'Barlow Semi Condensed', sans-serif;
+font-family: 'Roboto Slab', serif;
+
+font-family: 'Sulphur Point', sans-serifa;*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    background-color: white;
+}
+
+header {
+    background-color: white;
+
+    top: 0;
+    position: sticky;
+    z-index: 3;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 300px;
+    margin: 10px 0px 0px 10px;
+
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+span#burguer {
+    background-color: white;
+    color: black;
+    display: block;
+    font-size: 2.8em;
+    text-align: right;
+    padding: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+span#burguer:hover {
+    color: var(--cor4);
+}
+
+menu {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1em;
+    font-weight: 900;
+    text-align: center;
+    display: none;
+}
+
+menu li { 
+    list-style-type: none;
+    padding: 15px;
+    font-size: 1.1em;
+}
+
+menu a {
+    color: black;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+menu a:hover {
+    color: var(--cor4);
+}
+
+div.banner-principal {
+    display: block;
+    height: 290px;
+    background: url(../imagens/banner-principal.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
+div#agendamento {
+    display: block;
+    margin: 20px 20px;
+    height: 330px;
+    font-family: 'Sulphur Point', sans-serif;
+
+    background-color: black;
+    color: white;
+}
+
+div#agendamento h1 {
+    text-align: center;
+    padding: 85px 0px 0px 0px;
+
+    font-size: 2.2em;
+}
+
+div#agendamento p {
+    text-align: center;
+    padding: 0px 0px 20px 0px;
+    color: var(--cor5);
+    font-size: 1.3em;
+}
+
+div#agendamento a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 0px;
+    text-align: center;
+    font-size: 3em;
+}
+
+div#agendamento a:hover {
+    color: var(--cor5);
+}
+
+div#servicos {
+    display: block;
+    font-family: 'Sulphur Point', sans-serif;
+    margin: 40px 20px 0px 20px;
+    padding: 30px 10px 0px 10px;
+}
+
+div#servicos h1 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+div#servicos p {
+    text-align: center;
+    padding: 10px 0px 15px 0px;
+    font-size: 1.2em;
+}
+
+div#nossos-servicos {
+    display: block;
+    font-family: 'Sulphur Point', sans-serif;
+    margin: 0px 20px;
+    padding: 0px 10px 0px 10px;
+    background-color: var(--cor6); 
+}
+
+div#nossos-servicos ul {
+    padding-bottom: 10px;
+}
+
+div#nossos-servicos li {
+    list-style-type: none;
+    padding: 10px 10px;
+    font-size: 1.3em;  
+    font-family: 'Roboto Slab', serif;
+}
+
+div#nossos-servicos a {
+    text-decoration: none;
+    color: black;
+}
+
+div#nossos-servicos a:hover {
+    color: var(--cor5);
+}
+
+div#clientes {
+    display: block;
+    margin: 30px 10px;
+}
+
+div#clientes h1{
+    padding: 30px 10px 0px 20px;
+    font-size: 1.5em;
+}
+
+div.fotos-clientes {
+    display: block;
+    background-color: var(--cor2);
+    margin: 0px 20px;
+}
+
+div.fotos-clientes li{
+    list-style-type: none;
+}
+
+div.fotos-clientes img {
+    display: block;
+    margin: auto;
+    width: 350px;
+}
+
+.img01 {
+    padding: 30px 0px 0px 0px;
+}
+
+.img02 {
+    padding: 20px 0px 0px 0px;
+}
+
+.img03 {
+    padding: 20px 0px 30px 0px;
+}
+
+div#horarios {
+    display: block;
+    font-family: 'Sulphur Point', sans-serif;
+    margin: 40px 20px;
+    padding: 0px 10px 0px 10px;
+}
+
+div#horarios h1 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+div#horarios p {
+    text-align: justify;
+    padding: 10px 10px 15px 10px;
+    font-size: 1.2em;
+    line-height: 1.9em;
+}
+
+div#horarios > p > a{
+    text-decoration: none;
+    color: var(--cor4);
+}
+
+
+div#localizacao {
+    display: block;
+    font-family: 'Sulphur Point', sans-serif;
+    margin: 40px 20px 0px 20px;
+    padding: 0px 10px 0px 0px;
+}
+
+div#localizacao h1 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+div#localizacao p {
+    text-align: justify;
+    padding: 10px 10px 15px 10px;
+    margin-bottom: 0px;
+    font-size: 1.2em;
+    line-height: 1.9em;
+}
+
+div#localizacao > div.local > p > a{
+    text-decoration: none;
+    color: var(--cor4);
+}
+
+iframe {
+    display: block;
+    margin-top: 0px;
+    max-width: 100%;
+    height: 300px;
+}
+
+div#sobre {
+    display: block;
+    font-family: 'Sulphur Point', sans-serif;
+    margin: 100px 0px 0px 0px;
+    padding: 0px 10px 0px 10px;
+    background-color: black;
+    color: white;
+}
+
+div#sobre h1 {
+    text-align: center;
+    font-size: 1.9em;
+    padding: 20px 0px 0px 0px;
+}
+
+div#sobre p {
+    text-align: justify;
+    padding: 10px 10px 15px 10px;
+    margin-bottom: 0px;
+    font-size: .9em;
+    line-height: 1.9em;
+}
+
+div#sobre img {
+    display: block;
+    margin: auto;
+    width: 160px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+div#contatos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px 0px 10px;
+    background-color: black;
+}
+
+div#contatos > ul > li {
+    display: inline-block;
+}
+
+div#contatos img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+footer {
+    display: block;
+    height: 200px;
+    background-color: black;
+    color: white;
+}
+
+footer p {
+    text-align: center;
+    padding-top: 95px;
+    font-size: .9em;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: var(--cor3);
+}
