@@ -11,13 +11,18 @@
     --cor3: #A6A6A6;
     --cor4: #737373;
     --cor5: #595959;
-    --cor6: #ddb16e;
+    --cor6: #ddb16e63;
     --cor7: #dcdbcf;
+
+    --cor9: #000000f5;
+    --cor8: #ddb16e;
 }
 
 /*
 font-family: 'Barlow Semi Condensed', sans-serif;
 font-family: 'Roboto Slab', serif;
+
+000000ef
 
 font-family: 'Sulphur Point', sans-serifa;*/
 
@@ -30,6 +35,10 @@ font-family: 'Sulphur Point', sans-serifa;*/
 body {
     font-family: 'Roboto Slab', serif;
     background-color: white;
+}
+
+h1 {
+    color: var(--cor9);
 }
 
 header {
@@ -118,7 +127,7 @@ div#agendamento {
     color: white;
 }
 
-div#agendamento h1 {
+div#agendamento h2 {
     text-align: center;
     padding: 85px 0px 0px 0px;
 
@@ -193,7 +202,7 @@ div#nossos-servicos a:hover {
 
 div#clientes {
     display: block;
-    margin: 30px 10px;
+    margin: 30px 10px 10px 10px;
 }
 
 div#clientes h1{
@@ -203,7 +212,7 @@ div#clientes h1{
 
 div.fotos-clientes {
     display: block;
-    background-color: var(--cor2);
+    background-color: var(--cor1);
     margin: 0px 20px;
 }
 
@@ -234,11 +243,12 @@ div#horarios {
     font-family: 'Sulphur Point', sans-serif;
     margin: 40px 20px;
     padding: 0px 10px 0px 10px;
+
 }
 
 div#horarios h1 {
     text-align: center;
-    font-size: 2.5em;
+    font-size: 1.9em;
 }
 
 div#horarios p {
@@ -263,7 +273,7 @@ div#localizacao {
 
 div#localizacao h1 {
     text-align: center;
-    font-size: 2.5em;
+    font-size: 1.9em;
 }
 
 div#localizacao p {
@@ -279,6 +289,19 @@ div#localizacao > div.local > p > a{
     color: var(--cor4);
 }
 
+div.legenda-iframe {
+    display: block;
+    font-family: 'Sulphur Point', sans-serif;
+    margin: 10px 0px 0px 0px;
+    background-color: var(--cor1);
+}
+
+div.legenda-iframe p {
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+} 
+
 iframe {
     display: block;
     margin-top: 0px;
@@ -286,16 +309,29 @@ iframe {
     height: 300px;
 }
 
+div#dados-gerais {
+    display: block;
+    margin: 35px 20px;
+}
+
+div#dados-gerais p{
+    text-align: center;
+    padding: 10px 10px 15px 10px;
+    margin-bottom: 0px;
+    font-size: 1.1em;
+    color: var(--cor9);
+}
+
 div#sobre {
     display: block;
     font-family: 'Sulphur Point', sans-serif;
-    margin: 100px 0px 0px 0px;
+    margin: 0px;
     padding: 0px 10px 0px 10px;
     background-color: black;
     color: white;
 }
 
-div#sobre h1 {
+div#sobre h2 {
     text-align: center;
     font-size: 1.9em;
     padding: 20px 0px 0px 0px;
@@ -328,6 +364,7 @@ div#contatos {
 
 div#contatos > ul > li {
     display: inline-block;
+    padding-bottom: 20px;
 }
 
 div#contatos img {
@@ -337,14 +374,14 @@ div#contatos img {
 
 footer {
     display: block;
-    height: 200px;
-    background-color: black;
+    height: 120px;
+    background-color: var(--cor9);
     color: white;
 }
 
 footer p {
     text-align: center;
-    padding-top: 95px;
+    padding-top: 55px;
     font-size: .9em;
 }
 

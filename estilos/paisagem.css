@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 1000px) {
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        height: 100px;
+
+        top: 0;
+        position: sticky;
+        z-index: 3;
+    }
+
+    span#burguer {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu li { 
+        display: inline-block;
+    }
+
+    div.banner-principal {
+        min-height: 480px;
+
+        margin-bottom: 20px;
+    }
+
+    div#agendamento {
+        display: block;
+        margin: auto;
+        width: 750px;
+    }
+
+    div#servicos {
+        display: block;
+        margin: auto;
+        width: 750px;
+    }
+
+    div#servicos p {
+        padding-left: 30px;
+        text-align: left;
+    }
+
+    div#nossos-servicos {
+        display: block;
+        margin: auto;
+        width: 750px;
+    }
+
+    div#clientes {
+        display: block;
+        margin: auto;
+        width: 750px;
+    }
+
+    div#clientes h1{
+        padding: 65px 0px 25px 30px;
+        text-align: left;
+    }
+
+    div.fotos-clientes {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0px;
+    }
+
+    div.fotos-clientes li{
+        display: inline-block;
+    }
+
+    div.fotos-clientes img{
+        width: 290px;
+    }
+
+    .img01 {
+        padding: 30px 10px 30px 10px;
+    }
+    
+    .img02 {
+        padding: 30px 10px 30px 10px;
+    }
+    
+    .img03 {
+        padding: 30px 10px 30px 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
