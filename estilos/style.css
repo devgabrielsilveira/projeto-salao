@@ -43,10 +43,25 @@ h1 {
 
 header {
     background-color: white;
+    
 
     top: 0;
+    left: 0;
     position: sticky;
     z-index: 3;
+}
+
+header.rolagem {
+    min-height: 60px;
+}
+
+header.rolagem img {
+    width: 170px;
+    padding: 20px;
+}
+
+header.rolagem span#burguer{
+    width: 75px;
 }
 
 nav {
@@ -58,8 +73,7 @@ nav {
 
 nav img {
     width: 300px;
-    margin: 10px 0px 0px 10px;
-
+    padding: 20px 0px 20px 10px;
 }
 
 .material-symbols-outlined {
@@ -241,12 +255,23 @@ div.fotos-clientes img {
     padding: 20px 0px 30px 0px;
 }
 
+div#horarios-h1 {
+    display: block;
+    font-family: 'Sulphur Point', sans-serif;
+    margin: 40px 20px 0px 20px;
+    padding: 0px 10px 0px 10px;
+}
+
+div#horarios-h1 h1 {
+    text-align: center;
+    font-size: 1.9em;
+}
+
 div#horarios {
     display: block;
     font-family: 'Sulphur Point', sans-serif;
-    margin: 40px 20px;
+    margin: 0px 20px 40px 0px;
     padding: 0px 10px 0px 10px;
-
 }
 
 div#horarios h1 {
@@ -266,6 +291,17 @@ div#horarios > p > a{
     color: var(--cor4);
 }
 
+div#localizacao-h1 {
+    display: block;
+    font-family: 'Sulphur Point', sans-serif;
+    margin: 40px 20px 0px 20px;
+    padding: 0px 10px 0px 0px;
+}
+
+div#localizacao-h1 h1 {
+    text-align: center;
+    font-size: 1.9em;
+}
 
 div#localizacao {
     display: block;
@@ -287,7 +323,7 @@ div#localizacao p {
     line-height: 1.9em;
 }
 
-div#localizacao > div.local > p > a{
+div#localizacao > p > a{
     text-decoration: none;
     color: var(--cor4);
 }

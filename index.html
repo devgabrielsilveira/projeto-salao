@@ -21,10 +21,10 @@
     <link rel="stylesheet" href="estilos/paisagem.css" media="screen and (orientation: landscape)">
 </head>
 <body onresize="mudouTamanho()">
-    <header>
+    <header id="header">
         <nav id="nav-bar">
             <div class="logo">
-                <img class="logo" src="imagens/logo-salao.png" alt="logotipo do salão">
+                <a href="index.html"><img class="logo" src="imagens/logo-salao.png" alt="logotipo do salão"></a>
             </div>
             <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
                 menu
@@ -84,19 +84,21 @@
             </ul>
         </div>
 
-        <div id="horarios">
+        <div id="horarios-h1">
             <h1>Horários de Atendimento</h1>
-
-            <p>Realizo atendimentos de segunda a sexta-feira, com início as 8h e encerramento as 18h. Você pode agendar o seu horário <a href="#">clicando aqui.</a></p>
         </div>
-
-        <div id="localizacao">
-            <h1>Localização</h1>
-
-            <div class="local">
-                <p>Atendo atualmente na Evelin Duarte Beauty, um espaço completo que oferece o que há de melhor na área da estética. O studio fica localizado na rua <a href="https://goo.gl/maps/583bmkB1BFcb6RTx5" target="_blank">Osvaldo Cruz, 372 no bairro Primavera</a>, em Novo Hamburgo. Eu estou esperando por você!</p>
+            <div id="horarios">
+                <p>Realizo atendimentos de segunda a sexta-feira, com início as 8h e encerramento as 18h. Você pode agendar o seu horário <a href="#">clicando aqui.</a></p>
             </div>
+        
+
+        <div id="localizacao-h1">
+            <h1>Localização</h1>
         </div>
+        <div id="localizacao">
+            <p>Atendo atualmente na Evelin Duarte Beauty, um espaço completo que oferece o que há de melhor na área da estética. O studio fica localizado na rua <a href="https://goo.gl/maps/583bmkB1BFcb6RTx5" target="_blank">Osvaldo Cruz, 372 no bairro Primavera</a>, em Novo Hamburgo. Eu estou esperando por você!</p>
+        </div>
+        
         <div class="legenda-iframe">
             <p>Confira a seguir o melhor trajeto até o meu studio, via Google Maps:</p>
         </div>
