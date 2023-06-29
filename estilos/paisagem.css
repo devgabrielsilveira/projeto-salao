@@ -1,6 +1,20 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 1000px) {
+
+    :root {
+        --cor1: #F4F4F4;
+        --cor2: #BFBFBF;
+        --cor3: #A6A6A6;
+        --cor4: #737373;
+        --cor5: #595959;
+        --cor6: rgba(221, 177, 110, 0.388);
+        --cor7: #dcdbcf;
+    
+        --cor9: #000000f5;
+        --cor8: #ddb16e;
+    }
+
     header {
         display: flex;
         flex-direction: row;
@@ -12,7 +26,7 @@
         top: 0;
         left: 0;
         position: sticky;
-        z-index: 3;
+        transition: 1s;
     }
 
     header.rolagem {
@@ -129,8 +143,110 @@
     }
 
 
+                            /*SERVICOS*/
+/*    DETOX    */
+.banner-detox {
+    display: block;
+    margin: auto;
+    height: 360px;
+    width: 880px;
+    padding: 50px 0px;
+    background: url(../imagens/banners/detox-capilar2.png);
+    background-position: center bottom;
+    background-size:cover;
+}
 
+.banner-detox:hover {
+    background: url(../imagens/banners/detox-capilar3.png);
+    background-position: center bottom;
+    background-size:cover;
+    transition: 1s;
+}
 
+.banner-detox p {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 5em;
+}
+
+.banner-detox a {
+    text-decoration: none;
+    color: var(--cor2);
+}
+
+.banner-detox a:hover {
+    color: white;
+}
+
+/*    COLORAÇÃO    */
+
+.banner-coloracao {
+    display: block;
+    margin: auto;
+    height: 360px;
+    width: 880px;
+    padding: 50px 0px;
+    background: url(../imagens/banners/coloracao.png);
+    background-position: center bottom;
+    background-size:cover;
+}
+
+.banner-coloracao:hover {
+    background: url(../imagens/banners/coloracao-hover.png);
+    background-position: center bottom;
+    background-size:cover;
+    transition: 1s;
+}
+
+.banner-coloracao p {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 5em;
+}
+
+.banner-coloracao a {
+    text-decoration: none;
+    color: var(--cor2);
+}
+
+.banner-coloracao a:hover {
+    color: white;
+}
+
+/*    CORTE    */
+
+.banner-corte {
+    display: block;
+    margin: auto;
+    height: 360px;
+    width: 880px;
+    padding: 50px 0px;
+    background: url(../imagens/banners/corte.png);
+    background-position: center bottom;
+    background-size:cover;
+}
+
+.banner-corte:hover {
+    background: url(../imagens/banners/corte-hover.png);
+    background-position: center bottom;
+    background-size:cover;
+    transition: 1s;
+}
+
+.banner-corte p {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 5em;
+}
+
+.banner-corte a {
+    text-decoration: none;
+    color: var(--cor1);
+}
+
+.banner-corte a:hover {
+    color: white;
+}
 
 
 

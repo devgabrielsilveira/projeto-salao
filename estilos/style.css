@@ -43,16 +43,16 @@ h1 {
 
 header {
     background-color: white;
-    
 
     top: 0;
     left: 0;
     position: sticky;
-    z-index: 3;
+    
 }
 
 header.rolagem {
     min-height: 60px;
+    transition: 1s;
 }
 
 header.rolagem img {
@@ -69,6 +69,8 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+
+    
 }
 
 nav img {
