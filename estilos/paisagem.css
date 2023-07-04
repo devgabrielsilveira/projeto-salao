@@ -283,6 +283,41 @@
     color: white;
 }
 
+/*    ESCOVA    */
+
+.banner-escova {
+    display: block;
+    margin: auto;
+    height: 360px;
+    width: 880px;
+    padding: 50px 0px;
+    background: url(../imagens/banners/cronograma.png);
+    background-position: center bottom;
+    background-size:cover;
+}
+
+.banner-escova:hover {
+    background: url(../imagens/banners/cronograma-hover.png);
+    background-position: center bottom;
+    background-size:cover;
+    transition: 1s;
+}
+
+.banner-escova p {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 5em;
+}
+
+.banner-escova a {
+    text-decoration: none;
+    color: var(--cor1);
+}
+
+.banner-escova a:hover {
+    color: white;
+}
+
 
 
 
