@@ -291,13 +291,13 @@
     height: 360px;
     width: 880px;
     padding: 50px 0px;
-    background: url(../imagens/banners/cronograma.png);
+    background: url(../imagens/banners/escova.png);
     background-position: center bottom;
     background-size:cover;
 }
 
 .banner-escova:hover {
-    background: url(../imagens/banners/cronograma-hover.png);
+    background: url(../imagens/banners/escova-hover.png);
     background-position: center bottom;
     background-size:cover;
     transition: 1s;
@@ -317,6 +317,115 @@
 .banner-escova a:hover {
     color: white;
 }
+
+/*    HIDRATAÇÃO    */
+
+.banner-hidratacao {
+    display: block;
+    margin: auto;
+    height: 360px;
+    width: 880px;
+    padding: 50px 0px;
+    background: url(../imagens/banners/hidratacao.png);
+    background-position: center bottom;
+    background-size:cover;
+}
+
+.banner-hidratacao:hover {
+    background: url(../imagens/banners/hidratacao-hover.png);
+    background-position: center bottom;
+    background-size:cover;
+    transition: 1s;
+}
+
+.banner-hidratacao p {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 5em;
+}
+
+.banner-hidratacao a {
+    text-decoration: none;
+    color: var(--cor1);
+}
+
+.banner-hidratacao a:hover {
+    color: white;
+}
+
+/*    PROGRESSIVA    */
+
+.banner-progressiva {
+    display: block;
+    margin: auto;
+    height: 360px;
+    width: 880px;
+    padding: 50px 0px;
+    background: url(../imagens/banners/progressiva.png);
+    background-position: center bottom;
+    background-size:cover;
+}
+
+.banner-progressiva:hover {
+    background: url(../imagens/banners/progressiva-hover.png);
+    background-position: center bottom;
+    background-size:cover;
+    transition: 1s;
+}
+
+.banner-progressiva p {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 5em;
+}
+
+.banner-progressiva a {
+    text-decoration: none;
+    color: var(--cor1);
+}
+
+.banner-progressiva a:hover {
+    color: white;
+}
+
+/*    SEMIDIFINITIVA    */
+
+.banner-semidefinitiva {
+    display: block;
+    margin: auto;
+    height: 360px;
+    width: 880px;
+    padding: 50px 0px;
+    background: url(../imagens/banners/semidefinitiva.png);
+    background-position: center bottom;
+    background-size:cover;
+}
+
+.banner-semidefinitiva:hover {
+    background: url(../imagens/banners/semidefinitiva-hover.png);
+    background-position: center bottom;
+    background-size:cover;
+    transition: 1s;
+}
+
+.banner-semidefinitiva p {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 5em;
+}
+
+.banner-semidefinitiva a {
+    text-decoration: none;
+    color: var(--cor1);
+}
+
+.banner-semidefinitiva a:hover {
+    color: white;
+}
+
+
+
+
 
 
 
