@@ -134,16 +134,89 @@
         width: 750px;
     }
 
+    div.legenda-iframe {
+        display: block;
+        width: 750px;
+        margin: auto;
+        text-align: center;
+    }
 
     iframe {
         display: block;
-        margin: 0px 0px 70px 0px;
-        width: 100%;
+        margin: auto;
+        padding-bottom: 10px;
+        width: 750px;
         height: 300px;
     }
 
-
                             /*SERVICOS*/
+
+.servico-detalhe {
+    display: block;
+    margin: auto;
+    width: 880px;
+    font-family: 'Sulphur Point', sans-serif;
+    font-size: 1.2em;
+}
+
+.servico-detalhe h1 {
+    margin-top: 25px;
+    padding: 15px 0px 5px 0px;
+    text-align: center;
+    background-color: var(--cor1);
+}
+
+.servico-detalhe p {
+    text-align: justify;
+    padding: 0px 30px;
+    text-indent: 1.5em;
+    background-color: var(--cor1);
+}
+
+.servico-detalhe p.last-p {
+    padding: 0px 0px 10px 0px;
+}
+
+.servico-detalhe ul {
+    padding: 0px 0px 0px 0px;
+}
+
+.servico-detalhe li {
+    list-style-type: none;
+    font-size: 1.2em;
+    text-indent: 3em;
+    padding: 5px 0px 5px 35px;
+    background-color: var(--cor1);
+}
+
+.servico-detalhe li:last-child {
+    padding-bottom: 20px;
+}
+
+div.link-botao {
+    margin: 30px 0px;
+}
+
+a.botao {
+    display: block;
+    margin: auto;
+    width: 100px;
+    text-align: center;
+    padding: 10px 25px;
+    border-radius: 10px;
+    background-color: var(--cor9);
+    color: white;
+    font-family: 'Sulphur Point', sans-serif;
+    font-size: 1.4em;
+    text-decoration: none;
+    transition: .8s;
+}
+
+a.botao:hover {
+    color: var(--cor2);
+    background-color: #000000c9;
+}
+
 /*    DETOX    */
 .banner-detox {
     display: block;
