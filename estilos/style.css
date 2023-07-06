@@ -58,9 +58,10 @@ header.rolagem {
 header.rolagem img {
     width: 170px;
     padding: 20px;
+    transition: 1s;
 }
 
-header.rolagem span#burguer{
+nav.rolagem span#burguer{
     width: 75px;
 }
 
@@ -69,14 +70,14 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
-    
 }
 
-nav img {
-    width: 300px;
+header img {
+    width: 250px;
     padding: 20px 0px 20px 10px;
+    transition: 1s;
 }
+
 
 .material-symbols-outlined {
     font-variation-settings:
@@ -383,7 +384,7 @@ div#localizacao-h1 h1 {
 div#localizacao {
     display: block;
     font-family: 'Sulphur Point', sans-serif;
-    margin: 40px 20px 0px 20px;
+    margin: 0px 20px 0px 20px;
     padding: 0px 10px 0px 0px;
 }
 
@@ -508,4 +509,344 @@ footer a {
 
 footer a:hover {
     color: var(--cor3);
+}
+
+                            /*SERVICOS*/
+
+.servico-detalhe {
+    display: block;
+    margin: 20px;
+    font-family: 'Sulphur Point', sans-serif;
+    font-size: 1.2em;
+}
+
+.servico-detalhe h1 {
+    margin-top: 25px;
+    padding: 15px 0px 5px 0px;
+    text-align: center;
+    background-color: var(--cor1);
+}
+
+.servico-detalhe p {
+    text-align: justify;
+    padding: 0px 30px;
+    font-size: .9em;
+    text-indent: 1.5em;
+    background-color: var(--cor1);
+}
+
+.servico-detalhe p.last-p {
+    padding: 0px 0px 10px 0px;
+}
+
+.servico-detalhe ul {
+    padding: 0px 0px 0px 0px;
+}
+
+.servico-detalhe li {
+    list-style-type: none;
+    font-size: 1em;
+    text-indent: 1.1em;
+    padding: 5px 0px 5px 35px;
+    background-color: var(--cor1);
+}
+
+.servico-detalhe li:last-child {
+    padding-bottom: 20px;
+}
+
+div.link-botao {
+    margin: 30px 0px;
+}
+
+a.botao {
+    display: block;
+    margin: auto;
+    width: 100px;
+    text-align: center;
+    padding: 10px 25px;
+    border-radius: 10px;
+    background-color: var(--cor9);
+    color: white;
+    font-family: 'Sulphur Point', sans-serif;
+    font-size: 1.4em;
+    text-decoration: none;
+    transition: .8s;
+}
+
+a.botao:hover {
+    color: var(--cor2);
+    background-color: #000000c9;
+}
+
+/*    DETOX    */
+.banner-detox {
+    display: block;
+    margin: 20px;
+    height: 300px;
+    padding: 50px 0px;
+    background: url(../imagens/banners/botox.png);
+    background-position: center bottom;
+    background-size:cover;
+}
+
+.banner-detox:hover {
+    background: url(../imagens/banners/botox-hover.png);
+    background-position: center bottom;
+    background-size:cover;
+    transition: 1s;
+}
+
+.banner-detox p {
+    text-align: center;
+    padding: 50px 15px 0px 15px;
+    font-size: 4em;
+}
+
+.banner-detox a {
+    text-decoration: none;
+    color: var(--cor2);
+}
+
+.banner-detox a:hover {
+    color: white;
+}
+
+
+/*    COLORAÇÃO    */
+
+.banner-coloracao {
+    display: block;
+    margin: 20px;
+    height: 300px;
+    padding: 50px 0px;
+    background: url(../imagens/banners/coloracao.png);
+    background-position: center bottom;
+    background-size:cover;
+}
+
+.banner-coloracao:hover {
+    background: url(../imagens/banners/coloracao-hover.png);
+    background-position: center bottom;
+    background-size:cover;
+    transition: 1s;
+}
+
+.banner-coloracao p {
+    text-align: center;
+    padding: 50px 15px 0px 15px;
+    font-size: 4em;
+}
+
+.banner-coloracao a {
+    text-decoration: none;
+    color: var(--cor2);
+}
+
+.banner-coloracao a:hover {
+    color: white;
+}
+
+/*    CORTE    */
+
+.banner-corte {
+    display: block;
+    margin: 20px;
+    height: 300px;
+    padding: 50px 0px;
+    background: url(../imagens/banners/corte.png);
+    background-position: center bottom;
+    background-size:cover;
+}
+
+.banner-corte:hover {
+    background: url(../imagens/banners/corte-hover.png);
+    background-position: center bottom;
+    background-size:cover;
+    transition: 1s;
+}
+
+.banner-corte p {
+    text-align: center;
+    padding: 50px 15px 0px 15px;
+    font-size: 4em;
+}
+
+.banner-corte a {
+    text-decoration: none;
+    color: var(--cor1);
+}
+
+.banner-corte a:hover {
+    color: white;
+}
+
+/*    CRONOGRAMA CAPILAR    */
+
+.banner-cronograma {
+    display: block;
+    margin: 20px;
+    height: 300px;
+    padding: 50px 0px;
+    background: url(../imagens/banners/cronograma.png);
+    background-position: center bottom;
+    background-size:cover;
+}
+
+.banner-cronograma:hover {
+    background: url(../imagens/banners/cronograma-hover.png);
+    background-position: center bottom;
+    background-size:cover;
+    transition: 1s;
+}
+
+.banner-cronograma p {
+    text-align: center;
+    padding: 50px 15px 0px 15px;
+    font-size: 4em;
+}
+
+.banner-cronograma a {
+    text-decoration: none;
+    color: var(--cor1);
+}
+
+.banner-cronograma a:hover {
+    color: white;
+}
+
+/*    ESCOVA    */
+
+.banner-escova {
+    display: block;
+    margin: 20px;
+    height: 300px;
+    padding: 50px 0px;
+    background: url(../imagens/banners/escova.png);
+    background-position: center bottom;
+    background-size:cover;
+}
+
+.banner-escova:hover {
+    background: url(../imagens/banners/escova-hover.png);
+    background-position: center bottom;
+    background-size:cover;
+    transition: 1s;
+}
+
+.banner-escova p {
+    text-align: center;
+    padding: 50px 15px 0px 15px;
+    font-size: 4em;
+}
+
+.banner-escova a {
+    text-decoration: none;
+    color: var(--cor1);
+}
+
+.banner-escova a:hover {
+    color: white;
+}
+
+/*    HIDRATAÇÃO    */
+
+.banner-hidratacao {
+    display: block;
+    margin: 20px;
+    height: 300px;
+    padding: 50px 0px;
+    background: url(../imagens/banners/hidratacao.png);
+    background-position: center bottom;
+    background-size:cover;
+}
+
+.banner-hidratacao:hover {
+    background: url(../imagens/banners/hidratacao-hover.png);
+    background-position: center bottom;
+    background-size:cover;
+    transition: 1s;
+}
+
+.banner-hidratacao p {
+    text-align: center;
+    padding: 50px 15px 0px 15px;
+    font-size: 4em;
+}
+
+.banner-hidratacao a {
+    text-decoration: none;
+    color: var(--cor1);
+}
+
+.banner-hidratacao a:hover {
+    color: white;
+}
+
+/*    PROGRESSIVA    */
+
+.banner-progressiva {
+    display: block;
+    margin: 20px;
+    height: 300px;
+    padding: 50px 0px;
+    background: url(../imagens/banners/progressiva.png);
+    background-position: center bottom;
+    background-size:cover;
+}
+
+.banner-progressiva:hover {
+    background: url(../imagens/banners/progressiva-hover.png);
+    background-position: center bottom;
+    background-size:cover;
+    transition: 1s;
+}
+
+.banner-progressiva p {
+    text-align: center;
+    padding: 50px 15px 0px 15px;
+    font-size: 4em;
+}
+
+.banner-progressiva a {
+    text-decoration: none;
+    color: var(--cor1);
+}
+
+.banner-progressiva a:hover {
+    color: white;
+}
+
+/*    SEMIDIFINITIVA    */
+
+.banner-semidefinitiva {
+    display: block;
+    margin: 20px;
+    height: 300px;
+    padding: 50px 0px;
+    background: url(../imagens/banners/semidefinitiva.png);
+    background-position: center bottom;
+    background-size:cover;
+}
+
+.banner-semidefinitiva:hover {
+    background: url(../imagens/banners/semidefinitiva-hover.png);
+    background-position: center bottom;
+    background-size:cover;
+    transition: 1s;
+}
+
+.banner-semidefinitiva p {
+    text-align: center;
+    padding: 50px 15px 0px 15px;
+    font-size: 4em;
+}
+
+.banner-semidefinitiva a {
+    text-decoration: none;
+    color: var(--cor1);
+}
+
+.banner-semidefinitiva a:hover {
+    color: white;
 }

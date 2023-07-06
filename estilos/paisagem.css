@@ -1,5 +1,64 @@
 @charset "UTF-8";
 
+@media screen and (min-width: 805px) and (max-width: 1110px) {
+    div#agendamento {
+        display: block;
+        margin: 20px auto;
+        width: 650px;        
+    }
+
+    div#nossos-servicos {
+        display: block;
+        margin: auto;
+        width: 650px;   
+    }
+
+    div#clientes {
+        display: block;
+        text-align: justify;
+        width: 650px;   
+        margin: 10px auto;
+    }
+
+    div#horarios {
+        display: block;
+        text-align: center;
+        width: 650px;   
+        margin: 10px auto;
+    }
+
+    div#localizacao {
+        display: block;
+        text-align: center;
+        width: 650px;   
+        margin: 10px auto;
+    }
+
+    div.legenda-iframe {
+        display: block;
+        text-align: center;
+        width: 650px;   
+        margin: 10px auto 0px;
+    }
+
+    iframe {
+        display: block;
+        text-align: center;
+        width: 650px;   
+        margin: auto;
+    }
+
+    div#sobre-mim {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        width: 650px;
+        margin: auto;
+    }
+}
+
 @media screen and (min-width: 1111px) {
 
     :root {
@@ -93,34 +152,6 @@
         padding: 65px 0px 25px 30px;
         text-align: left;
     }
-    /*
-    div.fotos-clientes {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        margin: 0px;
-    }
-
-    div.fotos-clientes li{
-        display: inline-block;
-    }
-
-    div.fotos-clientes img{
-        width: 290px;
-    }
-
-    .img01 {
-        padding: 30px 10px 30px 10px;
-    }
-    
-    .img02 {
-        padding: 30px 10px 30px 10px;
-    }
-    
-    .img03 {
-        padding: 30px 10px 30px 10px;
-    } */
 
     div.fotos-clientes {
         display: flex;
@@ -268,7 +299,6 @@
         margin: auto;
         
     }
-
 
                             /*SERVICOS*/
 
@@ -616,20 +646,5 @@ a.botao:hover {
 .banner-semidefinitiva a:hover {
     color: white;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
