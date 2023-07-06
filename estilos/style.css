@@ -228,7 +228,7 @@ div#clientes h1{
     padding: 30px 10px 0px 20px;
     font-size: 1.5em;
 }
-
+/*
 div.fotos-clientes {
     display: block;
     background-color: var(--cor1);
@@ -255,6 +255,110 @@ div.fotos-clientes img {
 
 .img03 {
     padding: 20px 0px 30px 0px;
+} */
+
+div.fotos-clientes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Sulphur Point', sans-serif;
+    align-items: center;
+    margin: 0px;
+    background-color: var(--cor1);
+    
+}
+
+div.img01 {
+    width: 350px;
+    height: 438px;
+    background: url(../imagens/coloraçao.jfif);
+    background-position: center bottom;
+    background-size:cover;
+    margin: 25px 0px 15px 10px;
+    transition: 1s;
+}
+
+div.img01:hover {
+    background: url(../imagens/coloraçao-hover.png);
+    background-position: center bottom;
+    background-size:cover;
+    transition: 1s;
+}
+
+p.img01-p {
+    color: transparent;
+}
+
+div.img01:hover p.img01-p {
+    display: block;
+    text-align: center;
+    color: var(--cor1);
+    padding-top: 350px;
+    font-size: 2em;
+    font-weight: bold;
+    transition: 1s;
+}
+
+div.img02 {
+    width: 350px;
+    height: 438px;
+    background: url(../imagens/blindagem.jfif);
+    background-position: center bottom;
+    background-size:cover;
+    margin: 15px 10px;
+    transition: 1s;
+}
+
+div.img02:hover {
+    background: url(../imagens/blindagem-hover.png);
+    background-position: center bottom;
+    background-size:cover;
+    transition: 1s;
+}
+
+p.img02-p {
+    color: transparent;
+}
+
+div.img02:hover p.img02-p {
+    display: block;
+    text-align: center;
+    color: var(--cor1);
+    padding-top: 350px;
+    font-size: 2em;
+    font-weight: bold;
+    transition: 1s;
+}
+
+div.img03 {
+    width: 350px;
+    height: 438px;
+    background: url(../imagens/progressiva.jpg);
+    background-position: center bottom;
+    background-size:cover;
+    margin: 15px 0px 25px 10px;
+    transition: 1s;
+}
+
+div.img03:hover {
+    background: url(../imagens/progressiva-hover.png);
+    background-position: center bottom;
+    background-size:cover;
+    transition: 1s;
+}
+
+p.img03-p {
+    color: transparent;
+}
+
+div.img03:hover p.img03-p {
+    display: block;
+    text-align: center;
+    color: var(--cor1);
+    padding-top: 350px;
+    font-size: 2em;
+    font-weight: bold;
+    transition: 1s;
 }
 
 div#horarios-h1 {
