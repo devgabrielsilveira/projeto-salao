@@ -1,5 +1,5 @@
 function mudouTamanho() {
-    if (window.innerWidth >= 1000) {
+    if (window.innerWidth >= 1111) {
         itens.style.display = 'block'
     } else {
         itens.style.display = 'none'

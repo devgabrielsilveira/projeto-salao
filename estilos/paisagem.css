@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1111px) {
 
     :root {
         --cor1: #F4F4F4;
@@ -254,9 +254,8 @@
 
     div#sobre {
         display: block;
-        margin: auto;
         text-align: center;
-        padding: 15px;
+        padding: 10px;
     }
 
     div#sobre-mim {
