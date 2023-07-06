@@ -467,7 +467,7 @@ div#dados-gerais p{
     color: var(--cor9);
 }
 
-div#sobre {
+div#sobre, div#sobre-mim {
     display: block;
     font-family: 'Sulphur Point', sans-serif;
     margin: 0px;
@@ -476,13 +476,13 @@ div#sobre {
     color: white;
 }
 
-div#sobre h2 {
+div#sobre-mim h2 {
     text-align: center;
     font-size: 1.9em;
     padding: 20px 0px 0px 0px;
 }
 
-div#sobre p {
+div#sobre-mim p {
     text-align: justify;
     padding: 10px 10px 15px 10px;
     margin-bottom: 0px;
@@ -490,7 +490,7 @@ div#sobre p {
     line-height: 1.9em;
 }
 
-div#sobre img {
+div#sobre-mim img {
     display: block;
     margin: auto;
     width: 160px;
