@@ -470,6 +470,10 @@ div#sobre-mim img {
     padding: 10px;
 }
 
+div#sobre-mim .sobre-cor {
+    color: #ddb16e93;
+}
+
 div#contatos {
     display: flex;
     flex-direction: row;
